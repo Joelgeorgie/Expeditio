@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>EXPEDITIO</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section id="top-banner">
+      <div class="banner-text">
+        <h1>EXPEDITIO</h1>
+        <p>Where travel meets SPACE!!</p>
+        <div class="banner-b">
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <span></span>
+            Book Tickets
+          </a>
+          <a href="https://www.youtube.com/watch?v=zsJpUCWfyPE" target="_blank">
+            <span></span>
+            Watch Launch
+          </a>
+        </div>
+      </div>
+    </section>
+    <div id="side-nav">
+      <nav>
+        <ul>
+          <li><a href="#top-banner">HOME</a></li>
+          <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">BOOK TICKETS</a></li>
+          <li><a href="https://www.spacex.com/careers/" target="_blank">CAREERS</a></li>
+          <li><a href="https://twitter.com/nasaearth?lang=en" target="_blank">UPDATES</a></li>
+          <li><a href="#footer">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <a href=""></a>
+    </div>
+    <div id="menubtn">
+      <img src="./menubtn.png" alt="" id="menuimg" />
+    </div>
+
+    <section id="feat">
+      <div class="title-text">
+        <p>FEATURES</p>
+        <h1>Why Choose Us?</h1>
+      </div>
+      <div class="feat-box">
+        <div class="features-img">
+          <img src="./space1.jpg" alt="" />
+        </div>
+        <div class="features">
+          <h1>Experienced Staff</h1>
+          <div class="feat-desc">
+            <div class="feat-icon">
+              <i class="fa fa-users"></i>
+            </div>
+            <div class="feat-text">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem excepturi minima optio quas, ea voluptate?
+              </p>
+            </div>
+          </div>
+          <h1>Secure And Protected</h1>
+          <div class="feat-desc">
+            <div class="feat-icon">
+              <i class="fa fa-shield" ></i>
+            </div>
+            <div class="feat-text">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem excepturi minima optio quas, ea voluptate?
+              </p>
+            </div>
+          </div>
+          <h1>Affordable Rates</h1>
+          <div class="feat-desc">
+            <div class="feat-icon">
+              <i class="fa fa-usd"></i>
+            </div>
+            <div class="feat-text">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem excepturi minima optio quas, ea voluptate?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="images">
+      <div class="title-text">
+        <p>Launches</p>
+        <h1>Space Race</h1>
+      </div>
+
+      <div class="images-box">
+        <div class="single-image">
+          <img src="./launch1.jpg" alt="" />
+          <div class="overlay"></div>
+        </div>
+        <div class="single-image">
+          <img src="./launch2.jpg" alt="" />
+          <div class="overlay"></div>
+        </div>
+        <div class="single-image">
+          <img src="./launch3.jpg" alt="" />
+          <div class="overlay"></div>
+        </div>
+        <div class="single-image">
+          <img src="./launch4.jpg" alt="" />
+          <div class="overlay"></div>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <img src="./footerimg.png" alt="" class="footer-img">
+     <div class="title-text">
+      <p>CONTACT</p>
+     </div>
+     <div class="footer-row">
+      <div class="footer-left">
+        <h1>Research Locations</h1>
+        <p><i class="fa fa-building-o"></i>California</p>
+        <p><i class="fa fa-building-o"></i>Forida</p>
+        <p><i class="fa fa-search"></i>New Hampshire</p>
+      </div>
+      <div class="footer-right">
+        <h1>Get in Touch</h1>
+        <p>HQ: #105 7th Street,New York<i class="fa fa-map-marker"></i> </p>
+        <p>expeditio@space.com<i class="fa fa-paper-plane"></i></p>
+        <p>Requests: +1 9508763<i class="fa fa-phone"></i></p>
+      </div>
+     </div>
+     <div class="social-links">
+       <a href="https://www.facebook.com/ISRO/" target="_blank"><i class="fa fa-facebook"></i></a>
+       <a href="https://www.instagram.com/nasa/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
+       <a href="https://twitter.com/nasaearth?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
+       <a href="https://www.youtube.com/nasa" target="_blank"><i class="fa fa-youtube-play"></i></a>
+       <p>
+        EXPEDITIO &#169 2023
+       </p>
+     </div>
+    </section>
+
+    <script>
+      var menubtn = document.getElementById("menubtn");
+      var sidenav = document.getElementById("side-nav");
+      var menu = document.getElementById("menuimg");
+      sidenav.style.left = "-250px";
+      menubtn.onclick = function () {
+        if (sidenav.style.left == "-250px") {
+          sidenav.style.left = "0px";
+        } else {
+          sidenav.style.left = "-250px";
+        }
+      };
+    </script>
+  </body>
+</html>
